@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SOLLUX – Kolor i forma w nowym świetle</title>
+  <meta name="description" content="Lampy SOLLUX – kolor i forma w nowym świetle. Oficjalny sklep producenta.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ SVG sprite ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-chevron" viewBox="0 0 12 12"><path d="M3 4.5 6 7.5 9 4.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-cube" viewBox="0 0 24 24"><path d="M12 3 4.5 7v10L12 21l7.5-4V7L12 3Zm0 9L4.5 7.5M12 12l7.5-4.5M12 12v9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M4.5 20.5c.6-3.9 3.7-6 7.5-6s6.9 2.1 7.5 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><path d="M3 4h2.6l2 11h10.2l1.9-8H6.4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="19" r="1.4" fill="currentColor"/><circle cx="17" cy="19" r="1.4" fill="currentColor"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5m6-6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-return" viewBox="0 0 24 24"><path d="M19 6v6H6m4-4-4 4 4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M6.5 3.5h11v17L12 16.5l-5.5 4v-17Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M2.5 6h11v10h-11V6Zm11 3.5h4.2l3.3 3.3V16h-7.5V9.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="7" cy="17.5" r="2" fill="#fff" stroke="currentColor" stroke-width="1.8"/><circle cx="17" cy="17.5" r="2" fill="#fff" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2.8 4.5 5.6v6.2c0 4.2 3 7.7 7.5 9.4 4.5-1.700 7.500-5.200 7.500-9.400V5.600L12 2.800Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 8.500v4.500" stroke="currentColor" stroke-width="1.800" stroke-linecap="round"/><circle cx="12" cy="15.700" r="1" fill="currentColor"/></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M7 3.500h10v5a5 5 0 0 1-10 0v-5Zm0 2H3.500v1.500A3.500 3.500 0 0 0 7 10.500M17 5.500h3.500V7a3.500 3.500 0 0 1-3.500 3.500M12 13.500v4M8 20.500h8M9 17.500h6" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 12 12"><path d="M3 1.500v9M3 2h6.500L8 4.500 9.500 7H3" fill="currentColor" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v18h-6.200v-6.900h2.300l.4-2.800h-2.700V8.600c0-.8.300-1.400 1.500-1.400h1.300V4.700c-.2 0-1-.1-1.900-.1-2.100 0-3.500 1.200-3.500 3.600v2.100H9.200v2.800h2.400V21H3V3Z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3.500" y="3.500" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.200" cy="6.800" r="1.200" fill="currentColor"/></symbol>
+    <symbol id="i-tiktok" viewBox="0 0 24 24"><path fill="currentColor" d="M16.600 3c.3 2.300 1.600 3.700 3.900 3.900v2.800c-1.400.1-2.600-.3-3.800-1.100v5.800c0 3.800-3.300 6-6.500 5.100-2.700-.8-4.300-3.600-3.500-6.300.8-2.600 3.300-4 5.900-3.500v3c-1.700-.5-3.200.8-3 2.400.2 1.700 2 2.600 3.400 1.800.7-.4 1.100-1.200 1.100-2V3h2.500Z"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path fill="currentColor" d="M21.600 7.200a2.600 2.600 0 0 0-1.800-1.800C18.200 5 12 5 12 5s-6.200 0-7.800.4A2.600 2.600 0 0 0 2.400 7.200C2 8.800 2 12 2 12s0 3.200.4 4.800a2.600 2.600 0 0 0 1.800 1.800C5.800 19 12 19 12 19s6.200 0 7.800-.4a2.600 2.600 0 0 0 1.800-1.800c.4-1.600.4-4.800.4-4.800s0-3.200-.4-4.800ZM10 15V9l5.200 3L10 15Z"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#main">Przejdź do treści</a>
+
+<!-- ============ Header ============ -->
+<header class="header" id="header">
+  <div class="header__bg" aria-hidden="true"></div>
+  <!-- Warstwa „jasna” (biała) – jedyna interaktywna; „ciemną” (czarną) kopię tworzy main.js -->
+  <div class="header__layer header__layer--light" id="header-main">
+    <div class="header__inner">
+      <a class="logo" href="#" aria-label="SOLLUX – strona główna">
+        <img src="assets/logo.png" alt="SOLLUX" width="136" height="21">
+      </a>
+
+      <nav class="nav" aria-label="Główna nawigacja">
+        <ul>
+          <li><a href="#">Lampy <svg class="chev" aria-hidden="true"><use href="#i-chevron"/></svg></a></li>
+          <li><a href="#">Kolory <svg class="chev" aria-hidden="true"><use href="#i-chevron"/></svg></a></li>
+          <li><a href="#">Pomieszczenia <svg class="chev" aria-hidden="true"><use href="#i-chevron"/></svg></a></li>
+          <li><a href="#">Nowości</a></li>
+          <li><a href="#">Bestsellery</a></li>
+          <li><a href="#">Promocje</a></li>
+        </ul>
+      </nav>
+
+      <form class="search" role="search" onsubmit="return false">
+        <input type="search" name="q" placeholder="Czego szukasz?" aria-label="Czego szukasz?" autocomplete="off">
+        <button type="submit" aria-label="Szukaj"><svg aria-hidden="true"><use href="#i-search"/></svg></button>
+      </form>
+
+      <div class="actions">
+        <a class="actions__configurator" href="#"><svg aria-hidden="true"><use href="#i-cube"/></svg>Stwórz swoją lampę</a>
+        <a class="actions__icon" href="#" aria-label="Moje konto"><svg aria-hidden="true"><use href="#i-user"/></svg></a>
+        <a class="actions__icon" href="#" aria-label="Koszyk"><svg aria-hidden="true"><use href="#i-cart"/></svg></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ Hero / slider ============ -->
+<section class="hero" id="hero" aria-roledescription="karuzela" aria-label="Bestsellery SOLLUX">
+
+  <div class="hero__slides">
+    <!-- Slajd 1: lampy na pomarańczowym tle -->
+    <div class="slide is-active" data-slide="0" aria-roledescription="slajd" aria-label="1 z 2">
+      <div class="slide__img"><img src="assets/hero-bg.jpg" alt="" width="1920" height="1080"></div>
+
+      <div class="lamps" id="lamps">
+        <button class="lamp lamp--terracotta" type="button" aria-pressed="false" aria-label="Włącz lampę – terakota" data-depth="1.2">
+          <span class="lamp__body"><img src="assets/lamp-terracotta.png" alt="" width="423" height="393"></span>
+          <span class="lamp__glow" aria-hidden="true"></span>
+        </button>
+        <button class="lamp lamp--peach" type="button" aria-pressed="false" aria-label="Włącz lampę – brzoskwinia" data-depth="0.7">
+          <span class="lamp__body"><img src="assets/lamp-peach.png" alt="" width="372" height="419"></span>
+          <span class="lamp__glow" aria-hidden="true"></span>
+        </button>
+        <button class="lamp lamp--olive" type="button" aria-pressed="false" aria-label="Włącz lampę – oliwka" data-depth="1.8">
+          <span class="lamp__body"><img src="assets/lamp-olive.png" alt="" width="470" height="428"></span>
+          <span class="lamp__glow" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Slajd 2: wnętrze -->
+    <div class="slide slide--interior" data-slide="1" aria-roledescription="slajd" aria-label="2 z 2" aria-hidden="true">
+      <div class="slide__img"><img src="assets/hero-interior.jpg" alt="Wnętrze z granatowym regałem, jasną szafą i lampami sufitowymi SOLLUX" width="2560" height="1440"></div>
+    </div>
+  </div>
+
+  <div class="hero__content">
+    <p class="hero__eyebrow">Bestsellery SOLLUX</p>
+    <h1 class="hero__title">Kolor i forma<br>w nowym świetle</h1>
+    <a class="btn btn--yellow" href="#">Sprawdź bestsellery</a>
+  </div>
+
+  <button class="hero__arrow hero__arrow--prev" type="button" aria-label="Poprzedni slajd"><svg aria-hidden="true"><use href="#i-arrow-left"/></svg></button>
+  <button class="hero__arrow hero__arrow--next" type="button" aria-label="Następny slajd"><svg aria-hidden="true"><use href="#i-arrow-right"/></svg></button>
+
+  <div class="hero__rating">
+    <strong>4.8</strong>
+    <svg class="flag" aria-hidden="true"><use href="#i-flag"/></svg>
+    <span>Uwielbiany przez klientów</span>
+  </div>
+
+  <div class="hero__pager" role="tablist" aria-label="Wybór slajdu">
+    <button type="button" role="tab" aria-selected="true" aria-label="Slajd 1"><span class="bar"><span class="bar__fill"></span></span></button>
+    <button type="button" role="tab" aria-selected="false" aria-label="Slajd 2"><span class="bar"><span class="bar__fill"></span></span></button>
+  </div>
+</section>
+
+<!-- ============ Korzyści ============ -->
+<section class="benefits" aria-label="Dlaczego SOLLUX">
+  <ul class="benefits__list">
+    <li><svg aria-hidden="true"><use href="#i-return"/></svg><strong>Zwroty nawet do 100 dni</strong><span>szybkie i proste</span></li>
+    <li><svg aria-hidden="true"><use href="#i-bookmark"/></svg><strong>5 lat gwarancji</strong><span>na wszystkie produkty</span></li>
+    <li><svg aria-hidden="true"><use href="#i-truck"/></svg><strong>Darmowa dostawa</strong><span>już za 299 zł</span></li>
+    <li><svg aria-hidden="true"><use href="#i-shield"/></svg><strong>Polskie produkty</strong><span>sprawdzona jakość</span></li>
+    <li><svg aria-hidden="true"><use href="#i-trophy"/></svg><strong>Oficjalny sklep producenta</strong><span>gwarancja satysfakcji</span></li>
+  </ul>
+</section>
+
+<!-- ============ Kafelki ============ -->
+<section class="tiles" aria-label="Poznaj SOLLUX">
+  <article class="tile tile--thoro">
+    <div class="tile__media"><img src="assets/tile-thoro.jpg" alt="" loading="lazy"></div>
+    <div class="tile__text">
+      <p>Marka THORO</p>
+      <h2>Poznaj lampy premium</h2>
+      <a class="btn btn--dark" href="#">Odwiedź sklep THORO</a>
+    </div>
+  </article>
+
+  <article class="tile tile--config">
+    <div class="tile__media"><img src="assets/tile-konfigurator.jpg" alt="" loading="lazy"></div>
+    <div class="tile__text">
+      <p>Konfigurator 3D</p>
+      <h2>Wybierz projekt i dostosuj<br>go do swojego wnętrza</h2>
+      <a class="btn btn--dark" href="#">Stwórz swój projekt</a>
+    </div>
+  </article>
+
+  <article class="tile tile--catalog">
+    <div class="tile__media"><img src="assets/tile-katalog.jpg" alt="" loading="lazy"></div>
+    <div class="tile__text">
+      <p>Katalog</p>
+      <h2>Odkryj najnowszy katalog</h2>
+      <a class="btn btn--dark" href="#">Sprawdź katalog</a>
+    </div>
+  </article>
+
+  <article class="tile tile--smart">
+    <div class="tile__media"><img src="assets/tile-smart.jpg" alt="" loading="lazy"></div>
+    <div class="tile__text">
+      <p>SOLLUX SMART</p>
+      <h2>Przymierz lampę w aplikacji</h2>
+      <a class="btn btn--dark" href="#">Pobierz aplikację na telefon</a>
+    </div>
+  </article>
+</section>
+
+<!-- ============ Shader ============ -->
+<section class="shader" id="shader" aria-labelledby="shader-title">
+  <canvas class="shader__canvas" id="shader-canvas" aria-hidden="true"></canvas>
+  <div class="shader__content">
+    <h2 id="shader-title">Twoje wnętrze zasługuje na<br>wyjątkowe&nbsp; światło</h2>
+    <a class="btn btn--yellow" href="#">Kup teraz</a>
+    <p>Od 119 zł na oficjalnej stronie<br>producenta SOLLUX</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="footer">
+  <div class="footer__top">
+    <div class="footer__brand">
+      <img src="assets/logo.png" alt="SOLLUX" width="136" height="21">
+      <ul class="social" aria-label="Social media">
+        <li><a href="#" aria-label="Facebook"><svg aria-hidden="true"><use href="#i-facebook"/></svg></a></li>
+        <li><a href="#" aria-label="Instagram"><svg aria-hidden="true"><use href="#i-instagram"/></svg></a></li>
+        <li><a href="#" aria-label="TikTok"><svg aria-hidden="true"><use href="#i-tiktok"/></svg></a></li>
+        <li><a href="#" aria-label="YouTube"><svg aria-hidden="true"><use href="#i-youtube"/></svg></a></li>
+      </ul>
+    </div>
+
+    <nav class="footer__col" aria-labelledby="f1">
+      <h3 id="f1">Moje zamówienia</h3>
+      <ul>
+        <li><a href="#">Status zamówienia</a></li>
+        <li><a href="#">Śledzenie przesyłki</a></li>
+        <li><a href="#">Chcę zareklamować produkt</a></li>
+        <li><a href="#">Informacje o wymianie</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__col" aria-labelledby="f2">
+      <h3 id="f2">Moje konto</h3>
+      <ul>
+        <li><a href="#">Zarejestruj się</a></li>
+        <li><a href="#">Koszyk</a></li>
+        <li><a href="#">Listy zakupowe</a></li>
+        <li><a href="#">Lista zakupionych produktów</a></li>
+        <li><a href="#">Historia transakcji</a></li>
+        <li><a href="#">Moje rabaty</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__col" aria-labelledby="f3">
+      <h3 id="f3">Regulaminy</h3>
+      <ul>
+        <li><a href="#">Sposoby wysyłki</a></li>
+        <li><a href="#">Sposoby płatności</a></li>
+        <li><a href="#">Regulamin sklepu</a></li>
+        <li><a href="#">Polityka prywatności</a></li>
+        <li><a href="#">Polityka bezpieczeństwa</a></li>
+        <li><a href="#">Zmień ustawienia ciasteczek</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__col" aria-labelledby="f4">
+      <h3 id="f4">Informacje</h3>
+      <ul>
+        <li><a href="#">O nas</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Kurs światła</a></li>
+        <li><a href="#">Inspiracje</a></li>
+        <li><a href="#">Marka premium</a></li>
+        <li><a href="#">Gwarancja</a></li>
+        <li><a href="#">Konfigurator 3D</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__col" aria-labelledby="f5">
+      <h3 id="f5">Współpraca</h3>
+      <ul>
+        <li><a href="#">Dla Architektów</a></li>
+        <li><a href="#">Modele 3D</a></li>
+        <li><a href="#">Dystrybucja</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="footer__badges">
+    <div class="cell">
+      <h3>Płatności i dostawy</h3>
+      <img src="assets/payments.png" alt="Visa, Mastercard, PayU, PayPal, InPost, DPD, DHL, GLS, Poczta Polska" loading="lazy">
+    </div>
+    <div class="cell">
+      <h3>Nagrody</h3>
+      <img src="assets/awards.png" alt="Kliknij i sprawdź, Orły E-Biznesu, Gazele Biznesu, Solidna Firma 2021, Polski Ład, Firma godna zaufania" loading="lazy">
+    </div>
+    <div class="cell">
+      <h3>Nasze sklepy</h3>
+      <img src="assets/flags.png" alt="Polska, Niemcy, Hiszpania, Rumunia, Francja, Wielka Brytania, Holandia, Szwecja" loading="lazy">
+    </div>
+  </div>
+
+  <div class="footer__legal">
+    <div>
+      <p>W sklepie prezentujemy ceny brutto (z VAT). Stawki VAT dla konsumentów z kraju: Polska.</p>
+      <p>NIP: 6070082443 &nbsp;&nbsp; +48 668 806 323 &nbsp;(Pn - Pt 7:00 - 15:00) &nbsp;&nbsp; sklep@sollux.pl &nbsp;&nbsp; Sollux Lighting Sp. z o.o. &nbsp;&nbsp; Władysława Łokietka 35, 64-840 Budzyń (POLSKA)</p>
+    </div>
+    <img src="assets/badges.png" alt="Design&amp;Code IdoMods, Powered by IdoSell" loading="lazy">
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
