@@ -21,8 +21,7 @@ Notes:
 ```
 index.html   markup + SVG icon sprite
 styles.css   all styling and CSS transitions
-main.js      header layers, slider, hero lamps, WebGL shader
-assets/      images (see "Assets" below)
+
 ```
 
 ## Implementation of the "Komentarze do projektu" notes
