@@ -1,6 +1,6 @@
 # SOLLUX landing page – IdoMods frontend + AI recruitment task
 
-Static landing page coded from the Figma design. Plain HTML + CSS + vanilla JS: no build step, no dependencies, no Node.
+Static landing page coded from the Figma design. Plain HTML + CSS  no build step, no dependencies, no Node.
 
 ## Run it
 
